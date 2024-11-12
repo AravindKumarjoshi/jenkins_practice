@@ -1,15 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Display') {
+    stage('Buzz Buzz') {
       steps {
-        sh 'echo "Hello Jack"'
-      }
-    }
-
-    stage('Last') {
-      steps {
-        sh 'echo "Build completed"'
+        echo 'Bees Buzzl'
       }
     }
 
